@@ -141,6 +141,7 @@ class GenerateTrojan:
 
     def cleanup(self):
         """Delete all extra files and folders created by pyinstaller"""
+		
         if self.zipped:
             os.remove(self.final_name)
 			
