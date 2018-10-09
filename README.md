@@ -2,7 +2,7 @@
 
 Quickily turn any file into a trojan disguised as any filetype. To use TrojanGenerator, all you need to do is replace the value of PYINSTALLER_PATH (in TrojanGenerator.py) with the path of your pyinstaller installation, unless you have Anaconda for python 2.7 installed.
 
-TrojanGenerator will create an executable which will download two files, one file that will open and show, and one file (virus) that will open and run in the background. You can also spoofthe extension and change icon to improve the authenticity.
+TrojanGenerator creates an executable which downloads two files, one file that will open and show, and another file (virus) that will open and run silently in the background. You can also spoof the extension and change icon to improve the authenticity.
 
 
 
